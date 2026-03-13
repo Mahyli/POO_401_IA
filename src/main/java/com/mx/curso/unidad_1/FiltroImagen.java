@@ -1,4 +1,6 @@
 package com.mx.curso.unidad_1;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FiltroImagen {
     public void procesar() {
@@ -7,7 +9,7 @@ public class FiltroImagen {
     }
 }package unidad1.pipelineprocesamiento;
 
-public class DectectorDeBordes extends FiltroImagen {
+class DectectorDeBordes extends FiltroImagen {
     @Override
     public void procesar() {
         System.out.print("procesando ");
@@ -15,15 +17,13 @@ public class DectectorDeBordes extends FiltroImagen {
     }
 }package unidad1.pipelineprocesamiento;
 
-public class EscaladaDegrices extends FiltroImagen {
+class EscaladaDegrices extends FiltroImagen {
     @Override
     public void procesar() {
         final String TAREA = "procesando imagen";
         System.out.println(TAREA);
     }
 }package unidad1.pipelineprocesamiento;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -42,4 +42,4 @@ public class Main {
         }
     }
 }
-}
+
