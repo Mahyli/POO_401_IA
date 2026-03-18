@@ -1,4 +1,6 @@
-package com.mx.curso.unidad_1;
+package com.mx.curso.unidad_1.Contexualizacion;
+
+import com.mx.curso.unidad_1.Metrica;
 
 public class calcularResultado () {
     System.out.println("Calculando resultado de la métrica...");

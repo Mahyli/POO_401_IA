@@ -1,4 +1,4 @@
-package com.mx.curso.unidad_1;
+package com.mx.curso.unidad_1.Contexualizacion;
 
 public class AgenteIA {
     int energia = 100;
@@ -24,13 +24,4 @@ class RobotTerrestre extends AgenteIA {
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
 
-        DronExplorador dron = new DronExplorador();
-        dron.moverse();
-
-        RobotTerrestre robot = new RobotTerrestre();
-        robot.moverse();
-    }
-}

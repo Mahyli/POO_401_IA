@@ -1,5 +1,7 @@
 package com.mx.curso.unidad_1;
 
+import com.mx.curso.unidad_1.Contexualizacion.CapaNeuronal;
+
 public class propagacionHaciaAdelante (){
     System.out.println("Realizando propagación hacia adelante...");
 }
@@ -24,10 +26,10 @@ class CapaDensa extends CapaNeuronal {
 public class Main {
     public static void main(String[] args) {
 
-        CapaConvolucional conv = new CapaConvolucional();
+        com.mx.curso.unidad_1.Contexualizacion.CapaConvolucional conv = new com.mx.curso.unidad_1.Contexualizacion.CapaConvolucional();
         conv.propagacionHaciaAdelante();
 
-        CapaDensa densa = new CapaDensa();
+        com.mx.curso.unidad_1.Contexualizacion.CapaDensa densa = new com.mx.curso.unidad_1.Contexualizacion.CapaDensa();
         densa.propagacionHaciaAdelante();
     }
 }
