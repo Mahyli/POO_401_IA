@@ -6,7 +6,7 @@ public class CapaNeuronal {
     }
 }
 
-class CapaConvolucional extends CapaNeuronal {
+public class CapaConvolucional extends CapaNeuronal {
 
     @Override
     public void propagacionHaciaAdelante() {
@@ -14,7 +14,7 @@ class CapaConvolucional extends CapaNeuronal {
     }
 }
 
-class CapaDensa extends CapaNeuronal {
+public class CapaDensa extends CapaNeuronal {
 
     @Override
     public void propagacionHaciaAdelante() {
